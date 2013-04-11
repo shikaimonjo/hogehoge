@@ -1,0 +1,16 @@
+git init
+git add
+git commit
+git log
+git log --oneline
+git log -p
+git log --stat
+git status
+git checkout --
+git diff
+git diff --cached
+git add . //gitに全てをaddする
+git rm / git mv //削除・移動
+vim .gitignore //gitに含めないもの(サブディレクトリ内に適用時は.gitignoreをサブディレクトリ内に作る)
+git commit -m "(message)" //コメントを一行しか書かない時
+git commit --amend //logを増やさない
