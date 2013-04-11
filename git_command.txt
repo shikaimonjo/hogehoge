@@ -41,5 +41,5 @@ git config -l
 git init --bare //共有リポジトリを作る
 git remote add origin (repos location) //共有リポジトリに登録
 git push origin master //originに向けてmasterの中身をpush
+git pull origin master //originに向けてmasterの中身をpush
 git clone (ディレクトリ) (保管するときの名前) //共有リポジトリの共有する中身を複製
-
