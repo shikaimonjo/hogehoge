@@ -17,3 +17,5 @@ git commit --amend //logを増やさない
 git reset --hard HEAD //元に戻る
 git reset --hard HEAD^
 git reset --hard HEAD (id7桁以上)//更にバージョンを戻す
+git reset --hard ORIG_HEAD //バージョンを戻した後もう一度バージョンを戻す
+
