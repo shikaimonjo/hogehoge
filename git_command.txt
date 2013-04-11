@@ -30,12 +30,16 @@ git tag //tag一覧
 git tag (tag name) //tagをつける(ver.1.0など)
 git tag (tag name) (commit id) //idを指定してタグ付け
 git tag -d (tag name) //tagを削除
-git init --bare //共有リポジトリを作る
-git remote add origin (repos location) //共有リポジトリに登録
-git push origin master //originに向けてmasterの中身をpush
+/*
 やっておく設定(エイリアス篇)
 git config --global alias.co checkout
 git config --global alias.st status
 git config --global alias.br branch
 git config --global alias.ci commit
 git config -l
+*/
+git init --bare //共有リポジトリを作る
+git remote add origin (repos location) //共有リポジトリに登録
+git push origin master //originに向けてmasterの中身をpush
+git clone (ディレクトリ) (保管するときの名前) //共有リポジトリの共有する中身を複製
+
