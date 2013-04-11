@@ -21,3 +21,8 @@ git reset --hard ORIG_HEAD //バージョンを戻した後もう一度バージ
 git branch //ブランチを確認
 git branch (branch name) //branchを作る
 git checkout (branch name) //branchに移動
+git merge (branch name) //ブランチにmerge
+git branch -d (branch name) //要らなくなったブランチを削除
+git stash save //一時的に変更内容を退避
+git branch --merged //merge済みのものをチェック
+git branch --no-merged //merge済みでないものをチェック
