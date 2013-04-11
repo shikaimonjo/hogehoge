@@ -26,3 +26,7 @@ git branch -d (branch name) //要らなくなったブランチを削除
 git stash save //一時的に変更内容を退避
 git branch --merged //merge済みのものをチェック
 git branch --no-merged //merge済みでないものをチェック
+git tag //tag一覧
+git tag (tag name) //tagをつける(ver.1.0など)
+git tag (tag name) (commit id) //idを指定してタグ付け
+git tag -d (tag name) //tagを削除
