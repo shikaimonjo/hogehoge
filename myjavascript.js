@@ -1,1 +1,2 @@
 alart();
+alart2();
