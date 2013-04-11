@@ -14,3 +14,6 @@ git rm / git mv //削除・移動
 vim .gitignore //gitに含めないもの(サブディレクトリ内に適用時は.gitignoreをサブディレクトリ内に作る)
 git commit -m "(message)" //コメントを一行しか書かない時
 git commit --amend //logを増やさない
+git reset --hard HEAD //元に戻る
+git reset --hard HEAD^
+git reset --hard HEAD (id7桁以上)//更にバージョンを戻す
